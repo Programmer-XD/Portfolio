@@ -12,12 +12,11 @@ import {
 
 function Footer() {
   const SocialShare = [
-    { Social: <FaFacebookF size={18} />, link: "https://www.facebook.com/" },
-    { Social: <FaLinkedinIn size={18} />, link: "https://www.linkedin.com/" },
-    { Social: <FaInstagram size={18} />, link: "https://www.instagram.com/" },
-    { Social: <FaTwitter size={18} />, link: "https://twitter.com/" },
-    { Social: <FaGithub size={18} />, link: "https://github.com/ottoh3x" },
-  ];
+  { Social: <FaInstagram size={18} />, link: "https://www.instagram.com/" },
+  { Social: <FaTelegramPlane size={18} />, link: "https://t.me/" },
+  { Social: <FaDiscord size={18} />, link: "https://discord.com/invite/" },
+  { Social: <FaGithub size={18} />, link: "https://github.com/Programmer-XD" },
+];
   return (
     <div
     // variants={footerVariants}

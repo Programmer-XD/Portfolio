@@ -1,20 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaGithub,
-} from "react-icons/fa";
-
-
+import { FaInstagram, FaTelegramPlane, FaDiscord, FaGithub } from "react-icons/fa";
 
 function Footer() {
   const SocialShare = [
-  { Social: <FaInstagram size={18} />, link: "https://www.instagram.com/" },
-  { Social: <FaTelegramPlane size={18} />, link: "https://t.me/" },
-  { Social: <FaDiscord size={18} />, link: "https://discord.com/invite/" },
+  { Social: <FaInstagram size={18} />, link: "https://www.instagram.com/damn_samar" },
+  { Social: <FaTelegramPlane size={18} />, link: "https://t.me/akitoxd" },
+  { Social: <FaDiscord size={18} />, link: "https://discord.com/programmer.xd" },
   { Social: <FaGithub size={18} />, link: "https://github.com/Programmer-XD" },
 ];
   return (
@@ -29,7 +21,7 @@ function Footer() {
         <div>
           <Image src="/Ghost.svg" height={40} width={40} objectFit="contain" alt="" />
         </div>
-        <p className="text-zinc-400">Copyright © 2023 Otto Programmer. All Rights Reserved.</p>
+        <p className="text-zinc-400">Copyright © 2025 Programmer XD. All Rights Reserved.</p>
         <div className="flex gap-2">
           {SocialShare.map((val, i) => (
             <span

@@ -51,7 +51,7 @@ function Projects() {
         />
 
 <ProjectsItem
-          title="OTTOIPTV"
+          title="Shadow TV"
           src="https://i.imgur.com/l4s3Nyx.png"
           url="https://github.com/Programmer-XD"
           desc={`Iptv Service Landing Page.`}
